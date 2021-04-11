@@ -1,0 +1,11 @@
+  
+<div>
+    <ng-select [items]="items$ "
+           bindLabel="name"
+           autofocus
+           bindValue="name"
+           [(ngModel)]="selectedItemName">
+</ng-select>
+
+<br/>Selected: {{selectedItemName}}
+</div>
